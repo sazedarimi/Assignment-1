@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_btn{
+    padding: 13px 20px 13px 20px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 1.2px;
+}
+nav h3{
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace;
+    text-transform: uppercase;
+    color: #0D1321;
+    font-weight: 700;
+
+}
+
+
+.hero {
+    background-image: url('assets/Hero-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .hero-content .hero-title{
+
+    color: #0D1321;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: "Azeret Mono", monospace;
+    padding: 20px 0;
+}
+
+.hero .hero-content .pera{
+    color: #0D1321;
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+
+}
+
+.btn{
+    padding: 18px 22px 18px 22px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    font-size: 16px;
+    background-color: #0D1321;
+    color: #fff;
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 1.2px;
+
+}
+
+.developement{
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.developement .dev_content .dev_title h3{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 20px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 36px;
+    letter-spacing: .7px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.developement .dev_content .dev_title p{
+    color: #0D1321;
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.banner2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+
+.banner2 .banner2_content_title{
+    color: #555963;
+    font-size: 24px;
+    padding: 20px 0;
+    text-align: left;
+    font-family: "Azeret Mono", monospace;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+.banner2_content{
+    text-align: left;
+}
+
+.banner2_pera{
+    color: #0D1321;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.banner2_btn{
+    padding: 13px 15px 13px 15px;
+    border: 1px solid #0D1321;
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 1.2px;
+}
+
+.inspiration{
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inspiration .pha{
+
+    color: #0D1321;
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.inspiration_title{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 10px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 36px;
+    letter-spacing: .7px;
+}
+
+.course{
+    display: flex;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px 50px 10px 50px;
+    padding: 50px;
+    text-align: left;
+
+
+}
+.card h3{
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.card p{
+    color: #0D1321;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.html{
+    background-color: #FFF6F4;
+    border-radius: 5px;
+}
+
+.css{
+    background-color: #F2F6FE;
+    border-radius: 5px;
+}
+
+.js{
+    background-color: #FFFDF2;
+    border-radius: 5px;
+}
+
+.card_btn{
+padding: 13px 15px 13px 15px;
+border: 1px solid #0D1321;
+font-size: 16px;
+color: #0D1321;
+font-weight: 600;
+font-family: "Azeret Mono", monospace;
+letter-spacing: 1.2px;
+}
+
+
+.support{
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 200px 0 200px;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.support_title{
+    color: #fff;
+    font-size: 36px;
+    padding: 10px 0;
+    font-family: "Azeret Mono", monospace;
+
+}
+
+.ph{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    font-family: "Azeret Mono", monospace;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
